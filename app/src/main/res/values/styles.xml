@@ -10,17 +10,17 @@
 
     <style name="button_rectangle_lightgreen_no_corner" parent="android:Widget">
         <item name="android:background">@drawable/button_lightgreen</item>
-        <item name="android:textColor">#B71C1C</item>
+        <item name="android:textColor">#000000</item>
     </style>
 
     <style name="button_rectangle_lightorange_no_corner" parent="android:Widget">
         <item name="android:background">@drawable/button_lightorange</item>
-        <item name="android:textColor">#F3FF5722</item>
+        <item name="android:textColor">#F3000000</item>
     </style>
 
     <style name="button_rectangle_lightblue_no_corner" parent="android:Widget">
         <item name="android:background">@drawable/button_lightblue</item>
-        <item name="android:textColor">#F3FF5722</item>
+        <item name="android:textColor">#F3000000</item>
     </style>
 
 </resources>

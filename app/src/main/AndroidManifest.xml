@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PrivateProfileEntery"></activity>
+        <activity android:name=".Attending"></activity>
+        <activity android:name=".PrivateProfileEntery" />
         <activity android:name=".PrivateProfile" />
         <activity android:name=".Forms" />
         <activity android:name=".OpeningScreen" />

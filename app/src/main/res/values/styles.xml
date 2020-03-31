@@ -13,13 +13,38 @@
         <item name="android:textColor">#000000</item>
     </style>
 
+    <style name="button_rectangle_lightgreen" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightgreen</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
     <style name="button_rectangle_lightorange_no_corner" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightorange</item>
+        <item name="android:textColor">#F3000000</item>
+    </style>
+
+    <style name="button_rectangle_lightorange" parent="android:Widget">
         <item name="android:background">@drawable/button_lightorange</item>
         <item name="android:textColor">#F3000000</item>
     </style>
 
     <style name="button_rectangle_lightblue_no_corner" parent="android:Widget">
         <item name="android:background">@drawable/button_lightblue</item>
+        <item name="android:textColor">#F3000000</item>
+    </style>
+
+    <style name="button_rectangle_lightblue" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightblue</item>
+        <item name="android:textColor">#F3000000</item>
+    </style>
+
+    <style name="button_rectangle_lightyellow_no_corner" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightyellow</item>
+        <item name="android:textColor">#F3000000</item>
+    </style>
+
+    <style name="button_rectangle_lightyellow" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightyellow</item>
         <item name="android:textColor">#F3000000</item>
     </style>
 

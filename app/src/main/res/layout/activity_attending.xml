@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Attending">
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/button_rectangle_lightorange_no_corner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="בקשות מיוחדות"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile3"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/button_rectangle_lightorange_no_corner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="לוגיסטיקה"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile3"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <TextView
+        android:id="@+id/helloTextPrivateProfile2"
+        android:layout_width="165dp"
+        android:layout_height="42dp"
+        android:background="@drawable/text_lightblue"
+        android:text="שלום, אדון קורונה."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attendingTitle"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/helloTextPrivateProfile3"
+        android:layout_width="119dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/text_lightblue"
+        android:text="צפי שעת הגעה:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/privateProfileTitle"
+        app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile2"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/attendingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="אישור התייצבות"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+</androidx.constraintlayout.widget.ConstraintLayout>

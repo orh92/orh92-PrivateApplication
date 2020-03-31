@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="button_rectangle_lightgreen_no_corner" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightgreen</item>
+        <item name="android:textColor">#B71C1C</item>
+    </style>
+
+    <style name="button_rectangle_lightorange_no_corner" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightorange</item>
+        <item name="android:textColor">#F3FF5722</item>
+    </style>
+
+    <style name="button_rectangle_lightblue_no_corner" parent="android:Widget">
+        <item name="android:background">@drawable/button_lightblue</item>
+        <item name="android:textColor">#F3FF5722</item>
+    </style>
+
 </resources>

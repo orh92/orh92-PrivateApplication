@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="כניסה לאזור האישי"
+        style="@style/button_rectangle_lightorange_no_corner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/forms"
         app:layout_constraintHorizontal_bias="0.421"
@@ -20,9 +21,10 @@
 
     <Button
         android:id="@+id/forms"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="64dp"
+        style="@style/button_rectangle_lightorange_no_corner"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="44dp"
         android:text="טפסים"
         app:layout_constraintBottom_toBottomOf="@+id/privateProfile"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,14 +35,17 @@
         android:id="@+id/updates"
         android:layout_width="194dp"
         android:layout_height="104dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="112dp"
+        android:singleLine="false"
         android:text="עדכוני חדשות היום מאתר צהל:
- *מבזקים....
-
- *מבזקים....
-"
+\n
+*מבזקים....
+\n
+*מבזקים....\
+\n
+*מבזקים...."
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen" />
 
@@ -71,7 +76,7 @@
         app:layout_constraintBottom_toTopOf="@+id/updates"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen"
-        app:layout_constraintVertical_bias="0.484"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/idf" />
 
     <ImageView
@@ -83,6 +88,6 @@
         app:layout_constraintHorizontal_bias="0.009"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen"
-        app:layout_constraintVertical_bias="0.479"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/isr" />
 </androidx.constraintlayout.widget.ConstraintLayout>

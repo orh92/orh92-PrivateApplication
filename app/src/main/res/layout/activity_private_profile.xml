@@ -22,7 +22,7 @@
         android:id="@+id/helloTextPrivateProfile"
         android:layout_width="165dp"
         android:layout_height="42dp"
-        android:background="@drawable/button_lightblue"
+        android:background="@drawable/text_lightblue"
         android:text="שלום, אדון קורונה."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/privateProfileTitle"

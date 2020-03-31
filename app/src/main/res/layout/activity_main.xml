@@ -23,11 +23,12 @@
 
     <Button
         android:id="@+id/clickToStart"
+        style="@style/button_rectangle_lightorange"
         android:layout_width="394dp"
         android:layout_height="94dp"
         android:layout_marginTop="48dp"
         android:layout_marginBottom="152dp"
-        android:text="click to start"
+        android:text="לחצו כאן על מנת להתחיל"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/mainActivityTitle"
         app:layout_constraintHorizontal_bias="0.473"

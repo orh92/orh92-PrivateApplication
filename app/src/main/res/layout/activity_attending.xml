@@ -21,16 +21,16 @@
 
     <Button
         android:id="@+id/button4"
-        style="@style/button_rectangle_lightorange_no_corner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button_rectangle_lightpink_no_corner"
+        android:layout_width="102dp"
+        android:layout_height="46dp"
         android:text="לוגיסטיקה"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintHorizontal_bias="0.278"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile3"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.116" />
 
     <TextView
         android:id="@+id/helloTextPrivateProfile2"
@@ -46,8 +46,8 @@
 
     <TextView
         android:id="@+id/helloTextPrivateProfile3"
-        android:layout_width="119dp"
-        android:layout_height="37dp"
+        android:layout_width="125dp"
+        android:layout_height="44dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/text_lightblue"
         android:text="צפי שעת הגעה:"
@@ -56,7 +56,7 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/privateProfileTitle"
         app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile2"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.042" />
 
     <TextView
         android:id="@+id/attendingTitle"
@@ -68,4 +68,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
+
+    <Spinner
+        android:id="@+id/chooseOptions"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="552dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="@+id/helloTextPrivateProfile3"
+        app:layout_constraintEnd_toStartOf="@+id/helloTextPrivateProfile3"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/helloTextPrivateProfile3"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

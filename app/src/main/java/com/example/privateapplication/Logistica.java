@@ -41,12 +41,27 @@ Button accept;
         professionApd.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         profession.setAdapter(professionApd);
 
+        role.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String  st = parent.getItemAtPosition(position).toString();
+                if (st.equals("לוחם")) {
+                    profession.setVisibility(View.VISIBLE);
+                    findViewById(R.id.textView13).setVisibility(View.VISIBLE);
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
 
         //spinner info slots
         String[] elements = new String[]{
                 "נא לבחור מהרשימה","מחסניות","שקית שתייה","קיטבג","שק שינה","מעיל ב'","משקפי מגן","ברכיות", "ווסט לוחם","מנשא 90 ל'","קסדה'","מדי ב'"
         };
-
 
         //element spinner
         final Spinner elementsSp = findViewById(R.id.chooseOptions4);
@@ -60,6 +75,7 @@ Button accept;
                 String  st = parent.getItemAtPosition(position).toString();
                 if (!(st.equals("נא לבחור מהרשימה"))) {
                     elementsSp.setVisibility(View.VISIBLE);
+                    findViewById(R.id.textView14).setVisibility(View.VISIBLE);
                 }
             }
 

@@ -38,11 +38,11 @@
         android:singleLine="false"
         android:text="עדכוני חדשות היום מאתר צהל:
 \n
-*מבזקים....
+*דיווחים על תקיפה מסתורית בסוריה, ישנם דיווחים על נפגעים.
 \n
-*מבזקים....\
+*צוות חוקרים ישראלי תרופה לקורונה.
 \n
-*מבזקים...."
+"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toEndOf="@+id/imageView5"

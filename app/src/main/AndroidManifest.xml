@@ -22,7 +22,7 @@
             />
         <activity android:name=".PrivateProfile"
             />
-        <activity android:name=".Forms"
+        <activity android:name=".ChooseElements"
             />
         <activity android:name=".OpeningScreen"
             />

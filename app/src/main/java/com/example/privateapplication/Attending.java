@@ -2,8 +2,12 @@ package com.example.privateapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class Attending extends AppCompatActivity {
@@ -12,10 +16,18 @@ public class Attending extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attending);
-
+        Button goToLogistica;
+        goToLogistica=findViewById(R.id.button4);
+        goToLogistica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(Attending.this, Logistica.class);
+                startActivity(intent);
+            }
+        });
            //spinner info slots
         String[] hours = new String[]{
-                "8:00",  "9:00", "10:00"
+                "נא לבחור מהרשימה", "8:00",  "9:00", "10:00"
         };
         //type spinner
         final Spinner spinnerOptions = findViewById(R.id.chooseOptions);

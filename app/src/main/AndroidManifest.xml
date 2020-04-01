@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Logistica"></activity>
+        <activity android:name=".FinishProccess"></activity>
+        <activity
+            android:name=".ui.login.ChooseTheElements"
+            android:label="@string/title_activity_choose_the_elements" />
+        <activity android:name=".Logistica" />
         <activity android:name=".Summons" />
         <activity android:name=".Attending" />
         <activity android:name=".PrivateProfileEntery" />

@@ -8,14 +8,11 @@
 
     <TextView
         android:id="@+id/mainActivityTitle"
-        android:layout_width="244dp"
-        android:layout_height="175dp"
-        android:text="  אפליקציה
-
-קורונה וירוס"
+        android:layout_width="151dp"
+        android:layout_height="84dp"
+        android:text="@string/מילואים"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,9 +28,9 @@
         android:text="לחצו כאן על מנת להתחיל"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/mainActivityTitle"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/mainActivityTitle"
         app:layout_constraintTop_toBottomOf="@+id/mainActivityTitle"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.484" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

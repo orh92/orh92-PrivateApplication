@@ -33,9 +33,10 @@
 
     <TextView
         android:id="@+id/updates"
+        style="@style/button_rectangle_lightblue"
         android:layout_width="194dp"
         android:layout_height="104dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="120dp"
         android:singleLine="false"
         android:text="עדכוני חדשות היום מאתר צהל:
 \n
@@ -44,10 +45,8 @@
 *מבזקים....\
 \n
 *מבזקים...."
-        style="@style/button_rectangle_lightblue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen" />
 
     <TextView

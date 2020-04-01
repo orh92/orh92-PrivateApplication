@@ -8,16 +8,16 @@
 
     <Spinner
         android:id="@+id/chooseOptions4"
-        android:layout_width="214dp"
-        android:layout_height="52dp"
-        android:layout_marginBottom="552dp"
+        android:layout_width="213dp"
+        android:layout_height="55dp"
         android:background="@android:drawable/btn_dropdown"
         android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toStartOf="@+id/textView14"
-        app:layout_constraintHorizontal_bias="0.824"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="@+id/chooseOptions3"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="@+id/chooseOptions3"
         app:layout_constraintTop_toTopOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:visibility="invisible" />
 
     <Spinner
         android:id="@+id/chooseOptions5"
@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chooseOptions4"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.036"
         tools:visibility="invisible" />
 
     <Spinner

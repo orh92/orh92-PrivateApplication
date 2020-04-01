@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/armybackground"
     tools:context=".Attending">
 
     <Button
@@ -13,22 +14,22 @@
         android:text="בקשות מיוחדות"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile3"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="102dp"
-        android:layout_height="46dp"
+        android:layout_width="117dp"
+        android:layout_height="47dp"
         android:text="חיול מהיר"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintHorizontal_bias="0.289"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile3"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <TextView
         android:id="@+id/helloTextPrivateProfile2"
@@ -36,10 +37,11 @@
         android:layout_height="42dp"
         android:text="שלום, אדון קורונה."
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/attendingTitle"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="@+id/attendingTitle"
         app:layout_constraintTop_toBottomOf="@+id/attendingTitle"
-        app:layout_constraintVertical_bias="0.035" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <TextView
         android:id="@+id/helloTextPrivateProfile3"
@@ -73,9 +75,9 @@
         android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="@+id/helloTextPrivateProfile3"
         app:layout_constraintEnd_toStartOf="@+id/helloTextPrivateProfile3"
-        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintHorizontal_bias="0.836"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/helloTextPrivateProfile3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.001" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

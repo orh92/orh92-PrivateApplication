@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/armybackground"
     tools:context=".OpeningScreen">
 
     <Button
@@ -33,7 +34,7 @@
         android:id="@+id/updates"
         android:layout_width="194dp"
         android:layout_height="104dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="16dp"
         android:singleLine="false"
         android:text="עדכוני חדשות היום מאתר צהל:
 \n
@@ -43,6 +44,7 @@
 \n
 *מבזקים...."
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen" />
 
@@ -70,21 +72,21 @@
         android:id="@+id/imageView4"
         android:layout_width="102dp"
         android:layout_height="95dp"
-        app:layout_constraintBottom_toTopOf="@+id/updates"
+        app:layout_constraintBottom_toTopOf="@+id/privateProfile2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.096"
         app:srcCompat="@drawable/idf" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="99dp"
         android:layout_height="96dp"
-        app:layout_constraintBottom_toTopOf="@+id/updates"
+        app:layout_constraintBottom_toTopOf="@+id/privateProfile"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.096"
         app:srcCompat="@drawable/isr" />
 </androidx.constraintlayout.widget.ConstraintLayout>

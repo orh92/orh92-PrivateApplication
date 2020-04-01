@@ -67,7 +67,6 @@
 
     <TextView
         android:id="@+id/textView5"
-        style="@style/button_rectangle_lightblue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="שלום, אדון קורונה."
@@ -80,7 +79,6 @@
 
     <TextView
         android:id="@+id/textView6"
-        style="@style/button_rectangle_lightblue"
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:text="תפקיד:"
@@ -93,7 +91,6 @@
 
     <TextView
         android:id="@+id/textView13"
-        style="@style/button_rectangle_lightblue"
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:text="מקצוע:"
@@ -108,7 +105,6 @@
 
     <TextView
         android:id="@+id/textView14"
-        style="@style/button_rectangle_lightblue"
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:text="פרטי ציוד לחתימה:"
@@ -125,7 +121,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="לוגיסטיקה"
+        android:text="חיול מהיר"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -137,7 +133,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="אישור"
-        style="@style/button_rectangle_lightorange_no_corner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"

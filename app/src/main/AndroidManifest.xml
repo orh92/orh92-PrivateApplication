@@ -5,19 +5,29 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/מילואים"
+        android:label="גיוס בקליק"
+        android:gravity="center"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".FinishProccess"></activity>
-        <activity android:name=".Logistica" />
-        <activity android:name=".Summons" />
-        <activity android:name=".Attending" />
-        <activity android:name=".PrivateProfileEntery" />
-        <activity android:name=".PrivateProfile" />
-        <activity android:name=".Forms" />
-        <activity android:name=".OpeningScreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".FinishProccess"
+            ></activity>
+        <activity android:name=".Logistica"
+            />
+        <activity android:name=".Summons"
+            />
+        <activity android:name=".Attending"
+            />
+        <activity android:name=".PrivateProfileEntery"
+            />
+        <activity android:name=".PrivateProfile"
+            />
+        <activity android:name=".Forms"
+            />
+        <activity android:name=".OpeningScreen"
+            />
+        <activity android:name=".MainActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

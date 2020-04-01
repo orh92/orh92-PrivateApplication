@@ -27,7 +27,7 @@ public class Attending extends AppCompatActivity {
         });
            //spinner info slots
         String[] hours = new String[]{
-                "נא לבחור מהרשימה", "8:00",  "9:00", "10:00"
+                "נא לבחור מהרשימה", "6:00 - 8:00","8:00 - 10:00",  "10:00 - 12:00", "12:00 - 14:00","14:00 - 16:00","16:00 - 18:00"
         };
         //type spinner
         final Spinner spinnerOptions = findViewById(R.id.chooseOptions);

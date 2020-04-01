@@ -22,7 +22,6 @@
         android:id="@+id/helloTextPrivateProfile"
         android:layout_width="165dp"
         android:layout_height="42dp"
-        android:background="@drawable/text_lightblue"
         android:text="שלום, אדון קורונה."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/privateProfileTitle"
@@ -33,7 +32,6 @@
 
     <Button
         android:id="@+id/button"
-        style="@style/button_rectangle_lightorange_no_corner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="צפיה בזימון עתידי"
@@ -46,11 +44,10 @@
 
     <Button
         android:id="@+id/button2"
-        style="@style/button_rectangle_lightorange_no_corner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:text="נתוני שירות מיל'"
+        android:text="נתוני שירות מילואים"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloTextPrivateProfile"

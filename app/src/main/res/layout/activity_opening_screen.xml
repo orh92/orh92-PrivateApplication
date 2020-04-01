@@ -10,30 +10,27 @@
         android:id="@+id/privateProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
         android:text="כניסה לאזור האישי"
-        style="@style/button_rectangle_lightorange_no_corner"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/forms"
-        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/updates"
-        app:layout_constraintVertical_bias="0.503" />
+        app:layout_constraintVertical_bias="0.349" />
 
     <Button
-        android:id="@+id/forms"
-        style="@style/button_rectangle_lightorange_no_corner"
-        android:layout_width="115dp"
-        android:layout_height="53dp"
-        android:layout_marginEnd="44dp"
+        android:id="@+id/privateProfile2"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
         android:text="טפסים"
         app:layout_constraintBottom_toBottomOf="@+id/privateProfile"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toEndOf="@+id/privateProfile"
         app:layout_constraintTop_toTopOf="@+id/privateProfile"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/updates"
-        style="@style/button_rectangle_lightblue"
         android:layout_width="194dp"
         android:layout_height="104dp"
         android:layout_marginTop="120dp"
@@ -55,7 +52,6 @@
         android:layout_height="36dp"
         android:layout_marginTop="32dp"
         android:text="ברוך הבא איש מילואים יקר"
-        style="@style/button_rectangle_lightblue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"

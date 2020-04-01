@@ -53,18 +53,21 @@ Button accept;
         ArrayAdapter<String> elementsAdp = new ArrayAdapter<String>(Logistica.this,android.R.layout.simple_spinner_item, elements);
         elementsAdp.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         elementsSp.setAdapter(elementsAdp);
-/*
-        profession.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+        profession.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String  st = parent.getItemAtPosition(position).toString();
                 if (!(st.equals("נא לבחור מהרשימה"))) {
                     elementsSp.setVisibility(View.VISIBLE);
                 }
             }
-        });
 
- */
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
 
         //spinner info slots
         String[] size = new String[]{
@@ -77,18 +80,23 @@ Button accept;
         sizeAdp.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sizeSp.setAdapter(sizeAdp);
 
-        /*
-        elementsSp.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+        elementsSp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String  st = parent.getItemAtPosition(position).toString();
                 if (!(st.equals("נא לבחור מהרשימה"))) {
                     sizeSp.setVisibility(View.VISIBLE);
                 }
             }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
         });
 
-         */
+
 
         accept=findViewById(R.id.button6);
         accept.setOnClickListener(new View.OnClickListener() {

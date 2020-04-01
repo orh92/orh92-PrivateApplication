@@ -12,6 +12,7 @@
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:text="21.11.2021"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.848"
@@ -25,6 +26,7 @@
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:text="מחנה בילו"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/textView7"
         app:layout_constraintHorizontal_bias="0.841"
@@ -38,6 +40,7 @@
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:text='מבצע "קרן שמש"'
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintHorizontal_bias="0.841"

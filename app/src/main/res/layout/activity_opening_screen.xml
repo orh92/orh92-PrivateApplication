@@ -46,24 +46,27 @@
 *צוות חוקרים ישראלי תרופה לקורונה.
 \n
 "
-        android:textStyle="bold"
         android:textColor="#000000"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/privateProfile"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.421" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/welcomeOpeningScreen"
-        android:layout_width="168dp"
-        android:layout_height="39dp"
+        android:layout_width="278dp"
+        android:layout_height="55dp"
         android:layout_marginTop="4dp"
-        android:text="ברוך הבא איש מילואים יקר"
-        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="ברוך הבא איש מילואים יקר."
         android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -71,7 +74,9 @@
         android:id="@+id/imageView4"
         android:layout_width="102dp"
         android:layout_height="95dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/welcomeOpeningScreen"
         app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen"
         app:srcCompat="@drawable/idfsymbol" />
@@ -80,11 +85,11 @@
         android:id="@+id/imageView5"
         android:layout_width="99dp"
         android:layout_height="96dp"
-        app:layout_constraintBottom_toTopOf="@+id/updates"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toStartOf="@+id/welcomeOpeningScreen"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeOpeningScreen"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/isr" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fighters"
+    android:background="@drawable/fighter"
     tools:context=".FinishProccess">
 
     <ImageView
@@ -15,6 +15,7 @@
         android:layout_marginBottom="308dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:srcCompat="@drawable/barcode" />
 
@@ -23,6 +24,8 @@
         android:layout_width="64dp"
         android:layout_height="23dp"
         android:text="חיול מהיר"
+        android:textStyle="bold"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -37,30 +40,37 @@
         android:text="הפרטים הועברו ליחידה.
 \n
 תודה על שיתוף הפעולה."
+        android:textColor="#000000"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView15"
         app:layout_constraintHorizontal_bias="0.596"
         app:layout_constraintStart_toStartOf="@+id/textView15"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="164dp"
-        android:layout_height="44dp"
+        android:layout_width="254dp"
+        android:layout_height="62dp"
         android:text='"צהל צהל כבר באים"'
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/textView16"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.318"
         app:layout_constraintStart_toStartOf="@+id/textView16"
         app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="96dp"
         android:layout_height="50dp"
         android:text="סיום תהליך"
+        android:textStyle="bold"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

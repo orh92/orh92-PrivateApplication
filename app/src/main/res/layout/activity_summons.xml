@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fighters"
+    android:background="@drawable/fighter"
     tools:context=".Summons">
 
     <TextView
@@ -13,6 +13,7 @@
         android:layout_height="55dp"
         android:gravity="center"
         android:text="21.11.2021"
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
@@ -27,6 +28,7 @@
         android:layout_height="55dp"
         android:gravity="center"
         android:text="מחנה בילו"
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/textView7"
@@ -41,6 +43,7 @@
         android:layout_height="55dp"
         android:gravity="center"
         android:text='מבצע "קרן שמש"'
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
@@ -55,8 +58,8 @@
         android:layout_height="wrap_content"
         android:text='זימון לשמ"פ'
         android:gravity="center"
+        android:textStyle="bold"
         android:textColor="#000000"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,8 +72,8 @@
         android:layout_height="wrap_content"
         android:text="שלום, אדון קורונה."
         android:gravity="center"
+        android:textStyle="bold"
         android:textColor="#000000"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -84,6 +87,7 @@
         android:layout_height="55dp"
         android:gravity="center"
         android:text="תאריך:"
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,6 +102,7 @@
         android:layout_height="55dp"
         android:gravity="center"
         android:text="מיקום התייצבות:"
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
@@ -112,6 +117,7 @@
         android:layout_height="55dp"
         android:gravity="center"
         android:text="מטרת הזימון:"
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
@@ -125,6 +131,7 @@
         android:layout_width="140dp"
         android:layout_height="79dp"
         android:text="אישור התייצבות"
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -68,11 +68,11 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="96dp"
-        android:layout_height="50dp"
+        android:layout_width="145dp"
+        android:layout_height="60dp"
         android:text="סיום תהליך"
-        android:textStyle="bold"
         android:textColor="#000000"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

@@ -2,6 +2,8 @@ package com.example.privateapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,10 +14,14 @@ import android.widget.Spinner;
 
 public class Attending extends AppCompatActivity {
 
+    @SuppressLint("WrongConstant")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attending);
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.titlelayout);
+
         Button goToLogistica;
         goToLogistica=findViewById(R.id.button4);
         goToLogistica.setOnClickListener(new View.OnClickListener() {

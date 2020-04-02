@@ -2,6 +2,7 @@ package com.example.privateapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,8 @@ public class Logistica extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logistica);
+          getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.titlelayout);
 toElements=findViewById(R.id.button9);
 toElements.setOnClickListener(new View.OnClickListener() {
     @Override
@@ -91,7 +94,7 @@ toElements.setOnClickListener(new View.OnClickListener() {
         accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!(profession.getSelectedItem().toString().equals("נא לבחור מהרשימה"))){
+                if(!(role.getSelectedItem().toString().equals("נא לבחור מהרשימה"))){
                     Intent intent=new Intent(Logistica.this,FinishProccess.class);
                     startActivity(intent);}
                 else{

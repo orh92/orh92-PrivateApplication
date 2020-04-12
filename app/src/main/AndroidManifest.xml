@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/idfsymbol"
         android:label="גיוס בקליק"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/idfsymbol"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
         <activity android:name=".FinishProccess"
